@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "BlockDiag Preview",
+        "command": "blockdiag_preview",
+        "args": {}
+    }
+]
