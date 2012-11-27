@@ -1,0 +1,9 @@
+/*
+    Blockdiag Preview default settings
+*/
+{
+    /*
+        Re-open preview after a file has been saved.
+    */
+    "open_on_save": false
+}

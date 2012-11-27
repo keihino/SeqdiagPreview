@@ -4,6 +4,8 @@ import tempfile
 import subprocess
 import desktop
 
+settings = sublime.load_settings('BlockdiagPreview.sublime-settings')
+
 
 def getTempPreviewPath(view):
 	" return a permanent full path of the temp preview file "
@@ -25,7 +27,7 @@ class BlockdiagPreviewListener(sublime_plugin.EventListener):
 			temp_file = getTempPreviewPath(view)
 			if os.path.isfile(temp_file):
 				# reexec conversion
-				view.run_command('blockdiag_preview', {'open': False})
+				view.run_command('blockdiag_preview', {'open': settings.get('open_on_save', False)})
 				sublime.status_message('Blockdiag preview file updated')
 
 
