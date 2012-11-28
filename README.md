@@ -2,16 +2,15 @@
 
 **Caution!**: Currently this plugin needs **blockdiag** command which is installed your system.
 
-## About:
+## About :
 
-*[blockdiag][0]*  generates diagram simply!
-
+*[blockdiag][0]*  generates diagram simply!<br>
 you can preview generated diagram quickly with this plugin.
 
-## Installation:
+## Installation :
 
  - you should install [blockdiag][0] to your system.
- - your should use [sublime package manager][1]
+ - you should use [sublime package manager][1]
  - use `ctrl+shift+P` then `Package Control: Add Repository`
  - add `https://github.com/mstssk/BlockdiagPreview.git`
  - use `ctrl+shift+P` again, then `Package Control: Install Package`
@@ -19,7 +18,7 @@ you can preview generated diagram quickly with this plugin.
 
 ## Usage :
 
- - save *foobar**.diag*** then use `ctrl+shift+P` then `BlockdiagPreview` to launch a preview
+ - save *foobar<strong>.diag</strong>* then use `ctrl+shift+P` then `BlockdiagPreview` to launch a preview
  - file name should be end with **.diag**.
 
  [0]: http://blockdiag.com/
