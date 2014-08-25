@@ -1,7 +1,7 @@
 [
     {
-        "caption": "BlockDiag Preview",
-        "command": "blockdiag_preview",
+        "caption": "SeqDiag Preview",
+        "command": "seqdiag_preview",
         "args": {}
     }
 ]

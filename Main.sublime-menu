@@ -12,17 +12,17 @@
                 "children":
                 [
                     {
-                        "caption": "Blockdiag Preview",
+                        "caption": "Seqdiag Preview",
                         "children":
                         [
                             {
                                 "command": "open_file", 
-                                "args": {"file": "${packages}/BlockdiagPreview/BlockdiagPreview.sublime-settings"},
+                                "args": {"file": "${packages}/SeqdiagPreview/SeqdiagPreview.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file", 
-                                "args": {"file": "${packages}/User/BlockdiagPreview.sublime-settings"},
+                                "args": {"file": "${packages}/User/SeqdiagPreview.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" }
